@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:form="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>LOGIN</h1><br>
+<form method="post" modelAttribute="login" >
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="account" ><br></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="text" name="password"><br></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Login</button></td>
+            <td><button onclick="">Create new account</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
